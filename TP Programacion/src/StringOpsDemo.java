@@ -12,8 +12,11 @@ public class StringOpsDemo {
         Instant ahora = Instant.now(); // un "instante" universal (UTC)
         ZonedDateTime zdt = ahora.atZone(ZoneId.systemDefault()); // lo adapto a mi zona horaria
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        DateTimeFormatter hrs = DateTimeFormatter.ofPattern("HH:mm");
         String fecha = zdt.format(fmt);
-        String mensaje = base + " " + fecha + "!!!"; // concatenación + sufijo
+        String hora = zdt.format(hrs); // formato 24h agregado
+        // Construyo el mensaje completo
+        String mensaje = base + " " + fecha + "!!!" + " " + "y son las" + " " + hora ; // concatenación + sufijo
         System.out.println(mensaje);
 
         // === 2.a Longitud ===
