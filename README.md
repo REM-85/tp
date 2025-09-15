@@ -4,6 +4,7 @@
 **Carrera:** Licenciatura en Tecnologías Digitales  
 **Ciclo Lectivo:** 2025  
 **Docente:** Ing. Vázquez Alejandro
+**Alumno:** Ramiro Eduardo Menendez
 
 Repositorio de ejercitación en Java orientado a **Strings y Colecciones**, con ejemplos prácticos y salidas por consola para revisión docente.
 
