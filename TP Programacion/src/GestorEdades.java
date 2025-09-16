@@ -66,6 +66,7 @@ gestor.agregarEdad("Ana", 22);
 gestor.agregarEdad("Luis", 28);
 gestor.agregarEdad("Clara", 27);
 gestor.agregarEdad("Rama", 40);
+gestor.agregarEdad("Marta", 35);
 gestor.mostrarEdades();
 gestor.eliminarEdad("Pedro");
 gestor.eliminarEdad("Pablo");
